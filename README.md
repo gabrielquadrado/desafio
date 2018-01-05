@@ -1,27 +1,18 @@
-# TESTE FRONTEND S2IT
+# DESAFIO FRONT-END
 
-Você deve implementar um jogo, onde o jogador que ficar com 0% de vida perde.
+**How to run:**
 
-### O teste deve conter as seguintes features:
+ - Instanciar o projeto em um servidor Apache;
+ - Instalar a última versão do bower;
+ - Ir no diretório raiz e rodar os seguinte comando:
 
-* Cada jogador deve começar com 100% de vida
-* Dois botões, sendo um para cada jogador poder atacar o adversário
-* Cada ataque remove 20% de vida do jogador adversário
-* Um botão para reiniciar o jogo
-* Quando o jogador ficar com 0% de vida, deve exibir uma mensagem informando quem é o vencedor
 
-Abaixo segue o mock da tela:
+```sh
+$ bower install
+```
 
-![alt text](https://raw.githubusercontent.com/s2it-frontend/desafio/master/mock/01.jpg "Mock")
+**Comentários:**
 
-### Dicas
-
-Lembre-se que isto é apenas um mock e nós estamos aberto a novas ideias.
-
-Não é regra usar frameworks, mas caso queira, tente usar os mais novos.
-
-O design é muito importante, mas o UX é mais.
-
-Testes também fazem a diferença.
-
-#### Faça um fork deste repositório e boa sorte!
+ - A aplicação também está otimizada e totalmente funcional para navegadores de dispositivos móveis;
+ - Embora seja uma aplicação simples, escolhi usar Angular 1 com Angular Route para possíveis incrementos e prover escalabilidade ao game;
+ - O jogo pode ser acessado em: https://random-attack.herokuapp.com
